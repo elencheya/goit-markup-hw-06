@@ -1001,10 +1001,27 @@ ul{
     border-radius: 4px;
 }
 
+.footer-registration-form-input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+
+}
 .submit-btn{
     display: flex;
     min-width: 200px;
     height: 50px;
+    
 
 
     font-family: 'Roboto';
@@ -1015,6 +1032,9 @@ ul{
    
     
     align-items: center;
+    justify-content: center;
+
+
     text-align: center;
     letter-spacing: 0.06em;
     
@@ -1023,13 +1043,20 @@ ul{
     background:var(--focus-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    cursor: pointer;
 }
-.registration-form-icon{
-    display: block;
-    width: 24px;
-    height: 24px;
+.footer-registration-form-icon{
+ fill: var(--white-color);
+ margin-left: 10px;
 }
-/**/
+
+.total-registration-form-place{
+    display: flex;
+    gap: 10px;
+}
+
+
 /*=====ПОРТФОЛІО====*/
 .buttons{
     margin-bottom: 50px;
