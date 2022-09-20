@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -407,29 +408,28 @@
             <!--ФОРМА ДЛЯ ФУТЕРА-->
             <div class="footer-registration-form">
                 <form action="registration-form">
-                        <strong class="registration-form-text">Підпишіться на розсилку</strong>
+                    <strong class="registration-form-text">Підпишіться на розсилку</strong>
                     <div class="total-registration-form-place">
                         <div class="registration-form-place">
-                            <label class="label-email" name="email">
-                                <input class="footer-registration-form-input" type="email" name="email" placeholder="E-mail">
+                            <label class="label-email">
+                                <input class="footer-registration-form-input" type="email" name="email"
+                                    placeholder="E-mail">
                             </label>
                         </div>
-                        <div class="footer-submit-btn-container">
-                            <button class="submit-btn" type="submit">Підписатися
-                                <svg class="footer-registration-form-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-send"></use>
-                                </svg>
-                            </button>
-                        </div>
+                        <button class="submit-btn" type="submit">Підписатися
+                            <svg class="footer-registration-form-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
                     </div>
                 </form>
             </div>
         </div>
-       
+
     </footer>
     <!--==КІНЕЦЬ== Футер- логотип,розташування-->
 
-    
+
     <!-- ВСТАВЛЯЄМО МОДАЛЬНЕ ВІКНО-->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -442,57 +442,49 @@
             <form class="registration-form" name="registration-form" autocomplete="on">
                 <strong class="registration-form-title">Залиште свої дані, ми вам передзвонимо</strong>
                 <div class="registration-form-list">
-                    <div class="registration-form-container">
-                        <label class="registration-form-field" for="name">
-                            <span class="registration-form-label">Ім'я</span>
-                            <input class="registration-form-input" type="text" name="name" minlength="3">
-                            <svg class="registration-form-icon">
-                                <use href="./images/icons.svg#icon-personblack"></use>
-                            </svg>
-                        </label>                
-                    </div>
-                    
-                    <div>
-                        <label class="registration-form-field" for="phone">
-                            <span class="registration-form-label">Телефон</span>
-                            <input class="registration-form-input" type="tel" name="phone">
-                            <svg class="registration-form-icon">
-                                <use href="./images/icons.svg#icon-phoneblack"></use>
-                            </svg>
-                        </label>
-                    </div>
-                    
-                    <div>
-                        <label class="registration-form-field" for="email">
-                            <span class="registration-form-label">Пошта</span>
-                            <input class="registration-form-input" type="email" name="email">
-                            <svg class="registration-form-icon">
-                                <use href="./images/icons.svg#icon-email"></use>
-                            </svg>
-                        </label>                       
-                    </div>
-                    <label class="registration-form-field" for="comments">
+                    <label class="registration-form-field">
+                        <span class="registration-form-label">Ім'я</span>
+                        <input class="registration-form-input" type="text" name="name" minlength="3">
+                        <svg class="registration-form-icon">
+                            <use href="./images/icons.svg#icon-personblack"></use>
+                        </svg>
+                    </label>
+
+                    <label class="registration-form-field">
+                        <span class="registration-form-label">Телефон</span>
+                        <input class="registration-form-input" type="tel" name="phone">
+                        <svg class="registration-form-icon">
+                            <use href="./images/icons.svg#icon-phoneblack"></use>
+                        </svg>
+                    </label>
+
+
+                    <label class="registration-form-field">
+                        <span class="registration-form-label">Пошта</span>
+                        <input class="registration-form-input" type="email" name="email">
+                        <svg class="registration-form-icon">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </label>
+
+                    <label class="registration-form-field">
                         <span class="registration-form-label">Коментар</span>
                         <textarea class="registration-form-comment" rows="5" name="comments" placeholder="Введіть текст"></textarea>
                     </label>
-                                     
                 </div>
 
-                <div>
-                    <div>
-                        <label class="registration-form-agreement">
-                            <input class="registration-form-checkbox visually-hidden" type="checkbox" name="" value="">
-                            <svg class="registration-checked-icons" width="16px" height="15px">
-                                <use class="registration-icon-uncheked" href="./images/icons.svg#icon-uncheck"></use>
-                                <use class="registration-icon-cheked" href="./images/icons.svg#icon-check"></use>
-                            </svg>
-                            <span class="registration-form-desc"> Погоджуюся з розсилкою та приймаю
-                                <a class="registration-form-link" href="#">Умови договору</a>
-                            </span>
-                        </label>
-                    </div>
-                    <button class="registration-form-btn" type="submit">Відправити</button>
-                </div>
+                <label class="registration-form-agreement">
+                    <input class="registration-form-checkbox visually-hidden" type="checkbox" name="checkbox">
+                    <svg class="registration-checked-icons" width="16px" height="15px">
+                        <use class="registration-icon-uncheked" href="./images/icons.svg#icon-uncheck"></use>
+                        <use class="registration-icon-cheked" href="./images/icons.svg#icon-check"></use>
+                    </svg>
+                    <span class="registration-form-desc"> Погоджуюся з розсилкою та приймаю
+                        <a class="registration-form-link" href="#">Умови договору</a>
+                    </span>
+                </label>
+
+                <button class="registration-form-btn" type="submit">Відправити</button>
             </form>
         </div>
     </div>
