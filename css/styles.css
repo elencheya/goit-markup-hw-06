@@ -914,12 +914,9 @@ ul{
 
 
 .registration-checked-icons{
-    position: absolute;
-    top:50%;
-    left: 10px;
-    transform: translateY(-50%);
+   margin-right: 10px;
 
-    transition: fill var(--cubic-mooving-speed-color);
+   transition: fill var(--cubic-mooving-speed-color);
 }
 
 .registration-icon-cheked{
